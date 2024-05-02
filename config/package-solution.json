@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "skip-feature-deployment-client-side-solution",
+    "id": "42851057-f82b-4fa2-9c7f-b39caa9b02ed",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "skip-feature-deployment description"
+      },
+      "longDescription": {
+        "default": "skip-feature-deployment description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "skip-feature-deployment Feature",
+        "description": "The feature that activates elements of the skip-feature-deployment solution.",
+        "id": "53615805-a46f-4009-ae9f-43cfbfa9f2ad",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/skip-feature-deployment.sppkg"
+  }
+}

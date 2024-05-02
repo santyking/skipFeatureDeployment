@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "skip-feature-deployment-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/skipFeatureDeployment/SkipFeatureDeploymentWebPart.js",
+          "manifest": "./src/webparts/skipFeatureDeployment/SkipFeatureDeploymentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SkipFeatureDeploymentWebPartStrings": "lib/webparts/skipFeatureDeployment/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "skip-feature-deployment",
+    "libraryId": "42851057-f82b-4fa2-9c7f-b39caa9b02ed",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "skip-feature-deployment",
+    "solutionShortDescription": "skip-feature-deployment description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
